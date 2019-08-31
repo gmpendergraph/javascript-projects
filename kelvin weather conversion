@@ -1,0 +1,14 @@
+//current temperature in kelvin
+const kelvin = 293;
+
+//converts kelvin to celsius 
+const celsius = kelvin - 273;
+
+//converts celsius to fahrenheit
+let fahrenheit = celsius * (9/5) + 32;
+
+//round down fahrenheit variable
+fahrenheit = Math.floor(fahrenheit);
+
+//prints the temperature
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
